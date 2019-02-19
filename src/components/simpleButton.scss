@@ -1,32 +1,32 @@
 $color: red;
 
 @font-face {
-  font-family: 'Verdana';
-  src: url('../fonts/Verdana.ttf');
+    font-family: 'Verdana';
+    src: url('../fonts/Verdana.ttf');
 }
 
 
 .btn_style {
-  background: pink;
-  height: 300px;
-  width: 500px;
-  border: 1px solid #000;
+    background: pink;
+    height: 300px;
+    width: 500px;
+    border: 1px solid #000;
 
-  .ele {
-    transform: rotate(45deg);
-    background: $color;
-    position: relative;
-    height: 100px;
-    width: 100px;
-    top: 50%;
-    left: 50%;
-    font-family: 'Verdana';
-    font-size: 20px;
-  }
+    .ele {
+        transform: rotate(45deg);
+        background: $color;
+        position: relative;
+        height: 100px;
+        width: 100px;
+        top: 50%;
+        left: 50%;
+        font-family: 'Verdana';
+        font-size: 20px;
+    }
 
-  img {
-    display: block;
-    width: 50px;
-    height: 50px;
-  }
+    img {
+        display: block;
+        width: 50px;
+        height: 50px;
+    }
 }

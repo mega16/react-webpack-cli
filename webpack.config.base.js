@@ -10,11 +10,14 @@ module.exports = {
         filename: 'js/index.js'
     },
     resolve: {
-        extensions: ['.js', '.jsx', '.css', '.scss']
+        extensions: ['.js', '.jsx', '.css', '.scss'],
+        alias: {
+            src: path.resolve(__dirname, './src')
+        }
     },
     module: {
         rules: [{
-            test: /\.(js|jsx)$/,
+            test: /\.(js|jsx)?$/,
             exclude: /node_modules/,
             include: path.resolve(__dirname, 'src'),
             use: [{

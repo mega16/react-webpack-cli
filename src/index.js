@@ -10,9 +10,8 @@ class HelloReact extends React.Component {
     render() {
         return (
             <div>
-                {/* <img src={icon} /> */}
                 <SimpleButton />
-        Hello {this.props.name} {add(1, 3)}
+                Hello {this.props.name} {add(1, 3)}
             </div>
         );
     }
