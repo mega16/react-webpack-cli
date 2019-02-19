@@ -1,0 +1,11 @@
+// @import '~antd/dist/antd.css';
+
+// 清除浮动
+@mixin clearfix {
+  &:after {
+    content: '';
+    height: 0;
+    display: block;
+    clear: both;
+  }
+}
